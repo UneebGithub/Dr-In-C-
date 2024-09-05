@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Mhddbml">
+  <DataContextMoniker Name="/MhddbmlDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e78ba6f6-34da-4855-bd69-d006f9963a37" absoluteBounds="5.625, 3.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MhddbmlDataContext/Med" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fe14122-e5fa-41a0-9bc9-c9787808f789" absoluteBounds="5.64, 3.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c00929d-f842-4c28-bafa-b66fcf5d6375" absoluteBounds="5.25, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MhddbmlDataContext/Med1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38d8925e-8ad4-43cd-9622-001db280daf6" absoluteBounds="5.265, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2662ffe-8f69-432a-a409-296055416e1a" absoluteBounds="0.5, 2.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MhddbmlDataContext/Meds_user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1737f34c-4339-4acf-aeab-8777be6b3d3e" absoluteBounds="0.51499999999999968, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="821bea57-02c3-46be-9975-344406836ef3" absoluteBounds="3.125, 2.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MhddbmlDataContext/Pt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="efeea47f-8fe5-4ae6-82a8-32c776c4bdd4" absoluteBounds="3.14, 2.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9e10997a-f031-485e-9010-f6541d6d386c" absoluteBounds="2.875, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MhddbmlDataContext/Pt_Md_Bill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25d8b1e8-8eb0-4010-9b15-f02bba809e5a" absoluteBounds="2.89, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b986e75a-6755-4b81-9721-6890d44caa72" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MhddbmlDataContext/Total1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b18e0627-9593-45db-ac3a-4e163555d309" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2578acf8-7b92-4c61-aefd-46de2b5fb318" absoluteBounds="0.5, 4.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MhddbmlDataContext/Total" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37b909ec-2c1c-4fb4-b773-f7fd4392e79d" absoluteBounds="0.51500000000000012, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

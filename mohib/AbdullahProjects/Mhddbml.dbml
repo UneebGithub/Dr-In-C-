@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Abdullah_DB" Class="MhddbmlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-PDSAB38\SQLEXPRESS;Initial Catalog=Abdullah_DB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="Mohib.Properties.Settings" SettingsPropertyName="Abdullah_DBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Med" Member="Meds">
+    <Type Name="Med">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Med_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Qnt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prf" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Meds" Member="Med1s">
+    <Type Name="Med1">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Med_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Qnt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prf" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Meds_user" Member="Meds_users">
+    <Type Name="Meds_user">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Med_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pt" Member="Pts">
+    <Type Name="Pt">
+      <Column Name="phone" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pre" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="DR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Madicin" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date_PT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="issue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Phone2nd" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pt_Md_Bill" Member="Pt_Md_Bills">
+    <Type Name="Pt_Md_Bill">
+      <Column Name="phone" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Madicin" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Total1" Member="Total1s">
+    <Type Name="Total1">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Inc_Med" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Dr_fees" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Datee" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Total" Member="Totals">
+    <Type Name="Total">
+      <Column Name="Inc_Med" Type="System.Int64" DbType="BigInt" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="Dr_fees" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Datee" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

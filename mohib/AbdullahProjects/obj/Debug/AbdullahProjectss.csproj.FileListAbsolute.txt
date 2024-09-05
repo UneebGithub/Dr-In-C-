@@ -1,0 +1,12 @@
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.csproj.AssemblyReference.cache
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.Doctors.resources
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.Form1.resources
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.Properties.Resources.resources
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.PT.resources
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.csproj.GenerateResource.cache
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.csproj.CoreCompileInputs.cache
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\bin\Debug\AbdullahProjectss.exe.config
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\bin\Debug\AbdullahProjectss.exe
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\bin\Debug\AbdullahProjectss.pdb
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.exe
+C:\Users\UNEEB\Desktop\VSSemesterProject\AbdullahProjectss\AbdullahProjectss\obj\Debug\AbdullahProjectss.pdb
